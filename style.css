@@ -180,3 +180,30 @@ li{
     text-decoration: none;
     margin-left: 20px;
   }
+  /* 5. Component Styles
+======================================== */
+button {
+    border:none;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+.button{
+    border-radius: 100px;
+    display:inline-block;
+    font-family: 'Barlow', Helvetica, sans-serif;
+    font-size:16px;
+    text-transform:uppercase;
+    line-height:normal;
+    text-align:center;
+    transition:opacity 0.5s ease;
+    text-decoration: none;
+}
+
+.button-primary{
+    background-color:#A1A1A1;
+    color:white;
+}
+.button:hover {opacity:0.75;}
