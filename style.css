@@ -207,3 +207,19 @@ button:hover{
     color:white;
 }
 .button:hover {opacity:0.75;}
+
+.button-secondary{
+    background-color:#A1A1A1;
+    color:white;
+}
+input{
+    border-radius:100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border:none;
+    box-shadow:none;
+    transition: border-color 0.5s ease;
+    width:100%;
+}
+/* 6. Page Styles
+======================================== */
