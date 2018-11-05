@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0 auto;
+    overflow-x:hidden;
+    width:100%;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    margin:0 auto;
+    overflow-x:hidden;
+    width:100%;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+     color:#333;
+}
+
+.clearfix::after{
+    content:" ";
+    clear:both;
+    display: table;
+}
+
+.float-right{
+    float:right;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Barlow Condensed', Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom:15px;
+    transition:font-size 0.25s ease;
+    text-transform:uppercase;
+    line-height:1.25;
+
+}
