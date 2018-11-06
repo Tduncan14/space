@@ -2,7 +2,7 @@
 space.css
 
 This is just a regular project of me,just practice my css and html structure.
-![](images/2018-11-05(1).png)
+![](images/shot.png)
 Just pictures of the outcome  of the excerise.
-![](images/2018-11-05.png)
+![](images/screen.png)
 Keep moving forward
