@@ -264,4 +264,17 @@ input{
 
 .main-content-cta-left, .main-content-cta-right{
     width:50%;
+    float:left;
+    display:inline-block;
+    padding:0 30px;
+    text-align:left;
+}
+.item{
+    float:left;
+    margin-bottom:0;
+    width: calc(95%/3);
+}
+
+.item:not(:last-child) {
+    margin-right:2.5%;
 }
